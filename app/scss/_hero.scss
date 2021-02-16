@@ -1,0 +1,31 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.hero__text {
+  &__start,
+  &__end {
+    color: $gold;
+  }
+  &__end {
+    text-align: end;
+  }
+  &__name {
+    font-size: 6rem;
+    font-weight: 700;
+  }
+}
+
+.hero__about_me {
+  max-width: 18.75rem;
+  &__end {
+    text-align: end;
+  }
+}
