@@ -1,4 +1,4 @@
-.hero {
+.experience {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,9 +7,10 @@
   padding-bottom: 5rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  margin-top: 150px;
 }
 
-.hero__text {
+.experience__work {
   &__start,
   &__end {
     color: $gold;
@@ -23,18 +24,9 @@
   }
 }
 
-.hero__about_me {
+.experience__tech {
   max-width: 18.75rem;
   &__end {
     text-align: end;
   }
 }
-
-// .hero__image {
-//   background-image: url("../../images/blank\ and\ white\ pic.png");
-//   width: 200px;
-//   height: 400px;
-//   background-size: cover;
-//   /* you need to match the shadow color to your background or image border for the desired effect*/
-//   box-shadow: 0 0 8px 8px black inset;
-// }
